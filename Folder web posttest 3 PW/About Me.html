@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Pesawat</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Bio container styling */
+        .container__myself {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Circular image with size control */
+        .container__myself img {
+            width: 150px; /* Adjust the size of the image */
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover; /* Makes sure the image doesn't stretch */
+            margin-bottom: 20px;
+        }
+
+        /* Bio table styling */
+        .container__myself table {
+            border-collapse: collapse;
+            width: 80%;
+            max-width: 400px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+        }
+
+        .container__myself td {
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        /* Footer styling */
+        .footer {
+            background-color: #131313;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer__links ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer__links li {
+            margin-bottom: 5px;
+        }
+
+        .footer__copyright {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="kotak__navbar">
+            <div class="logo__navbar">
+                <a href="/" id="logo__navbar">WRIGHT AVIATION</a>
+            </div>
+            <ul class="menu__navbar">
+                <li class="barang__navbar">
+                    <a href="/" class="links__navbar">Home</a>
+                </li>
+                <li class="barang__navbar">
+                    <a href="/pilots.html" class="links__navbar">Pilots</a>
+                </li>
+                <li class="barang__navbar">
+                    <a href="/planes.html" class="links__navbar">Planes</a>
+                </li> 
+                <li class="tombol__navbar">
+                    <a href="/About Me.html" class="tombol">About Me</a>
+                </li> 
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Bio Section -->
+    <div class="container__myself"> 
+        <img src="myself.jpeg">
+        <table border="0">
+            <tr>
+                <td>Muhamad Rayhan Akhsani Taqwim</td>
+            </tr>
+            <tr>
+                <td>2309106050</td>
+            </tr>
+            <tr>
+                <td>14 April, 2005</td>
+            </tr>
+            <tr>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>PM Noor, Samarinda, Middle Earth</td>
+            </tr>
+            <tr>
+                <td>mrayhanat37@gmail.com</td>
+            </tr>
+            <tr>
+                <td>081244746892</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer__links">
+          <ul>
+            <li><a href="#contact" style="color: white;">Contact</a></li>
+            <li>mrayhanat37@gmail.com</li>
+            <li>081244746892</li>
+          </ul>
+        </div>
+
+        <div class="footer__copyright">
+          &copy; 2024 Punya Rayhan. All Rights Reserved. Pirates shall be hanged.
+        </div>
+    </footer>
+
+</body>
+</html>
