@@ -1,0 +1,12 @@
+<?php
+$servername = "sql304.infinityfree.com";
+$username = "if0_37564320";
+$password = "LmsEF8ex2kcQA";
+$database = "if0_37564320_rankride";
+
+$conn = new mysqli($servername, $username, $password, $database);
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+?>
